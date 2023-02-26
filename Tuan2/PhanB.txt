@@ -1,0 +1,184 @@
+Câu 1.  Đoạn mã nào phía dưới có thể thay thế cho lệnh (tam nguyên) sau:
+min = (a<b) ? a : b;
+
+b.   if (a<b) min = a;
+ 	else min = b;
+ 
+Câu 2.  Khoanh tròn đáp án đúng:
+
+c.	Quên lệnh ngắt break trong cấu trúc lệnh switch là mắc lỗi biên dịch.
+d.   Ứng dụng hay gặp của cấu trúc lệnh switch là tạo MENU.
+ 
+Câu 3.  Các nhãn case  trong cấu trúc switch phải là:
+
+c.    Phải là hằng (kiểu số nguyên hoặc kiểu ký tự), chứ không thể là biến hay biểu thức chứa biến.
+
+ 
+Câu 4.  Khoanh tròn đáp án đúng cho đoạn mã lệnh sau:
+int n = 5, k;
+  for (k = 1; k <= 50; k++) {
+  	if ( (k%n)) continue;
+      cout << k << “\t”;
+  }
+a.	In ra các số nguyên chia hết cho 5 nằm trong khoảng từ 1 tới 50.
+
+Câu 5.  Trong cấu trúc của vòng lặp for (khởi_tạo; điều_kiện_lặp; cập_nhật)
+
+d.   Có thể thiếu bất cứ biểu thức nào trong ba biểu thức trên.
+ 
+Câu 6.  Để kết thúc sự lặp lại hiện hành mà không thực thi các câu lệnh còn lại trong khối vòng lặp. Sự điều khiển trở về ngay lập tức với điều kiện kiểm tra, xác định xem có cần kết thúc chính vòng lặp hoặc tiếp tục với sự lặp lại kế tiếp hay không, ta gọi lệnh nào sau đây:
+
+b.   continue;
+
+ 
+Câu 7.  Khoanh tròn đáp án đúng cho đoạn mã lệnh sau:
+       	int x = 10;
+	   	for (int x = 0; x <= 20; x ++);      	
+       	cout << x;
+c.    In ra 10
+ 
+Câu 8.  Khoanh tròn các đáp án sai:
+e.  for là phép lặp “đếm” tự nhiên.
+ 
+Câu 9.  Cho đoạn chương trình sau:
+if (i == j) {
+  	cout << "A" << endl;
+}
+else if ((i % j) < 3) {
+ 	cout << "B" << endl;
+}
+else if (i < (j-1)) {
+  	cout << "C" << endl;
+}
+else {
+  	cout << "D" << endl;
+}
+Nếu i =4 và j = 9, kết quả xuất ra màn hình sẽ là?
+d.  	C
+ 
+Câu 10.    Cho đoạn chương trình sau:
+#include <iostream>
+using namespace std;
+ 
+int main()
+{
+   int x=7,y=45,z=63,min_num;
+	if (x<z) 	
+      min_num=x;
+	else
+      min_num=z;
+	if(y<z)  
+      min_num=y;
+	else   	
+	   min_num=z;
+	
+   cout<<"The minimum is:" <<min_num;
+   system ("pause");
+   return 0;
+}
+
+b.  	45
+ 
+Câu 11.    Kết quả xuất ra khi biên dịch khối lệnh sau:
+int num = 5, sum = 0;
+while (num > 0)
+{
+  	if (num %2 !=0)
+      sum+=num;
+  	--num;
+}
+cout << "The sum is " << sum << endl;
+
+                                  
+c.   	The sum is 9                           
+
+ 
+Câu 12.    Cho biết kết quả xuất ra của đoạn chương trình sau đây trên màn hình là gì?
+int1 = 120;
+cin >> int2;        	// Giả sử người sử dụng nhập vào 30
+if ((int1 > 100) && (int2 = 50))
+int3 = int1 + int2;
+else
+int3 = int1 - int2;
+cout << int1 << ' ' << int2 << ' ' << int3;
+
+d.      120   30  90
+
+Câu 13.    Cho biết kết quả xuất ra của đoạn chương trình sau đây trên màn hình là gì?
+int a=1,b=2;
+if (a<b)
+   if (a>b) 	a=a+1;
+   else       	b=b+1;
+else          	a=a+b;
+cout<<a*b;
+b.      3
+ 
+Câu 14.    Trong các đoạn code phía dưới, đoạn nào không có lỗi?
+ 
+ 
+ 
+d.      while ( i <= y )
+           	{
+    	            	power *= x;
+i++;
+}
+ 
+Câu 15.    Khoanh tròn đáp án đúng cho đoạn code bên dưới:
+int x = -1;
+     	do {
+	          	cout<<"Hello, world!\t";
+	          	x++;
+     	} while ( !x );
+In ra màn hình:
+b.      Hello, world!   Hello, world!
+ 
+Câu 16.    Khoanh tròn đáp án đúng cho đoạn code bên dưới:
+int x = -3;
+     	do {
+	          	cout<<"Hello, world!\t";
+	          	x++;
+     	} while ( x );
+In ra màn hình:
+c.       Hello, world!   Hello, world!           	Hello, world!
+ 
+Câu 17.    Khoanh tròn đáp án đúng cho đoạn code bên dưới:
+int x = -3;
+     	while (x) {
+	          	cout<<"Hello, world!\t";
+	          	x++;
+     	}
+In ra màn hình:
+c.       Hello, world!   Hello, world!     Hello, world!
+ 
+Câu 18.    Khoanh tròn đáp án đúng cho đoạn code bên dưới:
+int x = -3;
+     	while (!x) {
+	          	cout<<"Hello, world!\t";
+	          	x++;
+     	}
+In ra màn hình:
+d.      Không in gì
+ 
+Câu 19.    Khoanh tròn đáp án đúng cho đoạn code bên dưới:
+int x = -3;
+     	while (-3) {
+	          	cout<<"Hello, world!\t";
+	          	x++;
+              	if (!x)
+                          	break;
+     	}
+In ra màn hình:
+c.       Hello, world!   Hello, world!           	Hello, world!
+ 
+Câu 20.    Khoanh tròn đáp án đúng cho đoạn code bên dưới:
+int i = -3;
+           	for( ; ; ) {
+	                	cout<<"Hello, world!\n";
+                    	i ++;
+	                	if (i == 0) break;
+           	} ;
+In ra màn hình:
+b.      Hello, world!   Hello, world!           	Hello, world!
+
+
+

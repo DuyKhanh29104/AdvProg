@@ -1,0 +1,66 @@
+1.	Khai báo nào sau đây là hợp lệ:
+	iv.	double a[5];
+2.	Khai báo nào sau đây là hợp lệ
+	ii.	int a[5] = { 1, 5, 8, 4};
+	iv.	int a[] =  { 1, 5, 8, 4};
+3.	Khai báo nào sau đây là khai báo một mảng 2 chiều
+	ii.	int a[20][20];
+4.	Mảng foo có 100 phần tử, câu lệnh nào sau đây dung truy cập phần tử thứ 7:
+	i.	foo[6];
+5.	Câu lệnh nào sau đây trả về địa chỉ của phần tử đầu tiên trong mảng foo 
+	iii.	foo;
+6.	Hai chỉ số [5] & [4] trong int a[5]; & a[4]++; diễn tả:
+	iii.	[5] diễn tả độ dài của mảng a & [4] diễn tả chỉ số phần tử của mảng a
+7.	Mảng được truyền như một đối số cho hàm được hiểu như thế nào
+	iii.	Địa chỉ của phần tử đầu tiên của mảng được truyền
+8.	Những phát biểu nào xong đây là chính xác
+	i.	Độ dài của mảng phải xác định ngay khi khai báo
+9.	Có lỗi nào xảy ra với đoạn chương trình sau
+	int sampleArray[10];
+	for (int index = 1; index <= 10; index++)
+		sampleArray[index] = 3*index;
+	iii.	Lỗi khi chạy: truy cập phần tử vượt khoảng cho phép
+10.	Những khai báo nào xong đây là chính xác
+	iv.	void clearBoard(char aChar[][10]);
+11.	Cho hàm tripler và 2 khai báo như sau, lệnh gọi hàm nào không đúng
+	void tripler(int& n){ n = 3*n; }
+	int a[3] = {4, 5, 6}, number = 2;
+	i.	triple(a);
+
+
+12.	Đoạn mã sau in ra như thế nào:
+	double a[3] = {1.1, 2.2, 3.3};
+	cout <<a[0]<<" "<<a[1]<<" "<<a[2]<< endl; a[1] = a[2];
+	cout <<a[0]<<" "<<a[1]<<" "<<a[2]<< endl;
+	iv.	1.1 2.2 3.3
+		1.1 3.3 3.3
+13.	Đoạn mã sau in ra như thế nào:
+	int a[3] = {5, 10, 15};
+	for (int i = 2; i >= 0; i--)
+		cout << a[i] << “ “;
+	iii.	15 10 5
+14.	Sau khi chạy đoạn mã sau giá trị của phần tử thứ 2 trong mảng là gì:
+	int a[5];
+	for (int i = 0; i <5; i++)
+	{
+	   a[i] = i + 2;
+	   if (i >= 2) a[i-1] = a[i] + 3;
+	}
+	iii.	7
+15.	Mảng a có 100 phần tử, lệnh nào có thể dùng để in giá trị a[0],  a[2], a[4],…
+	i.	for (i=0; i<100; i=i+2) cout << a[i] << endl;
+	ii.	for (i=0; i<50; i++) cout << a[i*2] << endl;
+16.	Đếm số lần xuất hiện các ký tự ASCII (256 ký tự), khai báo nào là hợp lý
+	iii.	int freq[256];
+17.	Cho đoạn chương trình sau, khai báo hàm nào là hợp lý nhất:
+	char a[200];
+	char b[200];
+	copy(a, b, 200); // sao toàn bộ nội dung mảng b sang mảng a
+	iv.	copy(char a1[], const char a2[], int size);
+18.	Cho khai báo hàm như sau, phát biểu nào không chính xác:
+	void SapXep(int a[], int N);
+	iii.	Phải truyền vào độ dài của mảng trong ngoặc vuông [] cùng tên mảng
+19.	Khai báo hàm cho việc đổi chỗ 2 phần tử của mảng trong quá trình sắp xếp, khai báo nào sau đây là đúng:
+	iv.	void swap(int &a, int &b); 
+20.	Truyền mảng 2 chiều cho hàm, khai báo nào sau là đúng:
+	iii.	void timkiem(int a[][10]);
