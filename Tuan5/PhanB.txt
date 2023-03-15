@@ -1,0 +1,14 @@
+Câu 1
+
+output của đoạn lệnh:
+*p3 = B, p3 = 0x5678
+*p3 = A,  p3 = 0x1234
+*p1 = B, p1 = 0x5678
+
+Câu 2
+
+*p = 5;
+
+Câu 3
+
+Con trỏ kiểu double trỏ tới ô nhớ kiểu dữ liệu char
