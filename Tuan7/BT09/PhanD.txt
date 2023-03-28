@@ -1,0 +1,18 @@
+1.iii.	int *p = 10;
+2. ii.	4
+3.ii.	Độ dài của mảng động có thể được thay đổi
+4. iii.	Là kiểu truyền giá trị
+5. 	ii.	int *a = new int(0); print(a);
+	iii.	int a = 0; printPtr(a);
+6.	ii.	*sPtr = number;
+	iii.	number = aPtr;
+7.iii.	for (int i=0; i<N; i++) cout << *(p+i) << “ “;
+8.iv.	5 6
+9.ii.	6 
+10 iii.	10 10 20 20 30 30 
+11. ii.	20 30 10
+12. iii.	*(p+2);
+13.iii.	*p+1  là giá trị của p[1]
+
+
+	
